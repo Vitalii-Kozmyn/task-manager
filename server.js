@@ -6,6 +6,6 @@ const port = 3000;
 
 app.use(bodyParser.json());
 
-app.listen(port, ()=> {
+app.listen(port, () => {
     console.log(`Server: http://localhost:${port}`);
 });
